@@ -3,8 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Amin Template">
-    <meta name="keywords" content="Amin, unica, creative, html">
+    <meta name="description" content="MK99 Soccerstuff">
+    <meta name="keywords" content="MK99, soccer, css, Amin, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Amin | Template</title>
@@ -51,12 +51,10 @@
                         <li><a href="./contact.html">Contact</a></li>
                     </ul>
                 </li>
-                <li><a href="#">Reviews <i class="fa fa-angle-down"></i></a>
+                <li><a href="#">Maps <i class="fa fa-angle-down"></i></a>
                     <ul class="dropdown">
-                        <li><a href="#">Playstation</a></li>
-                        <li><a href="#">Windows</a></li>
-                        <li><a href="#">Mobile</a></li>
-                        <li><a href="#">Xbox</a></li>
+                        <li><a href="#">CS:S</a></li>
+                        <li><a href="#">CS:GO</a></li>
                     </ul>
                 </li>
                 <li><a href="#">Windows <i class="fa fa-angle-down"></i></a>
@@ -81,7 +79,7 @@
         <div class="hw-copyright">
             Copyright © 2019 Colorlib Inc. All rights reserved
         </div>
-        <div class="hw-social">
+<!--        <div class="hw-social">
             <a href="#"><i class="fa fa-facebook"></i></a>
             <a href="#"><i class="fa fa-twitter"></i></a>
             <a href="#"><i class="fa fa-youtube-play"></i></a>
@@ -97,7 +95,7 @@
                 <img src="img/instagram/ip-3.jpg" alt="">
                 <img src="img/instagram/ip-4.jpg" alt="">
             </div>
-        </div>
+        </div> -->
     </div>
     <!-- Humberger Menu End -->
 
@@ -110,7 +108,7 @@
                         <div class="ht-widget">
                             <ul>
                                 <li><i class="fa fa-sun-o"></i> <span>20<sup>c</sup></span> London</li>
-                                <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                <li><i class="fa fa-clock-o"></i> <span id="datetime"></span></li> <! Date >
                                 <li class="signup-switch signup-open"><i class="fa fa-sign-out"></i> Login / Sign up
                                 </li>
                             </ul>
@@ -2058,6 +2056,12 @@
         </div>
     </div>
     <!-- Search model end -->
+
+	<!-- scripts -->
+	<script>
+		var dt = new Date();
+		document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
+	</script>
 
     <!-- Js Plugins -->
     <script src="js/jquery-3.3.1.min.js"></script>
