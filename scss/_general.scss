@@ -24,6 +24,25 @@
   height: 75px;
   background: url(img/headlines/media.png) transparent no-repeat;
   background-size: contain;
+  background-position: center;
+}
+
+.highlight{
+  color : $white;
+  -webkit-text-stroke: 0.5px $custcol;
+}
+
+.downloadcontainer img{
+  margin-right: 40px;
+  margin-left: 40px;
+  border: 2.5px solid $custcol;
+  border-radius: 50%;
+}
+
+.caption{
+  color : $white;
+  -webkit-text-stroke: 0.5px $custcol;
+  text-align: center;
 }
 
 .contactReplacer{
