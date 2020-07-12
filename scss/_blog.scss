@@ -1,23 +1,4 @@
 /* :: 11.0 Blog CSS */
-.welcomeReplacer {
-  text-indent: -9999px;
-  height: 75px;
-  background: url(img/headlines/welcome.png) transparent no-repeat;
-  background-size: contain;
-}
-
-.lyrics {
-  color : $custcol;
-}
-
-.shortcutReplacer {
-  text-indent: -9999px;
-  height: 75px;
-  background: url(img/headlines/shortcuts.png) transparent no-repeat;
-  background-size: contain;
-}
-
-
 .featured-post-area {
     position: relative;
     z-index: 1;

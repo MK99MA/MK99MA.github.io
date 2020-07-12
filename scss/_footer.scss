@@ -53,7 +53,7 @@
 
         .text {
             p {
-                color: $heading;
+                color: $custcol;
                 margin-bottom: 0;
 
                 @media #{$breakpoint-md} {

@@ -1,0 +1,38 @@
+.welcomeReplacer {
+  text-indent: -9999px;
+  height: 75px;
+  background: url(img/headlines/welcome.png) transparent no-repeat;
+  background-size: contain;
+}
+
+.shortcutReplacer {
+  text-indent: -9999px;
+  height: 75px;
+  background: url(img/headlines/shortcuts.png) transparent no-repeat;
+  background-size: contain;
+}
+
+.latestReplacer{
+  text-indent: -9999px;
+  height: 75px;
+  background: url(img/headlines/latest.png) transparent no-repeat;
+  background-size: contain;
+}
+
+.mediaReplacer{
+  text-indent: -9999px;
+  height: 75px;
+  background: url(img/headlines/media.png) transparent no-repeat;
+  background-size: contain;
+}
+
+.contactReplacer{
+  text-indent: -9999px;
+  height: 55px;
+  background: url(img/headlines/contact.png) transparent no-repeat;
+  background-size: contain;
+}
+
+.lyrics {
+  color : $custcol;
+}
