@@ -1,3 +1,10 @@
+.empty {
+  text-indent: -9999px;
+  height: 75px;
+  background: url(img/headlines/empty.png) transparent no-repeat;
+  background-size: contain;
+}
+
 .welcomeReplacer {
   text-indent: -9999px;
   height: 75px;
@@ -51,6 +58,7 @@
   height: 55px;
   background: url(img/headlines/contact.png) transparent no-repeat;
   background-size: contain;
+  background-position: center;
 }
 
 .lyrics {

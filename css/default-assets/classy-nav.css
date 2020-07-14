@@ -262,7 +262,7 @@ img {
   width: 100%;
   left: 0;
   top: 100%;
-  background-color: #ffffff;
+  background-color: #1d1f21; /*#ffffff;*/
   z-index: 200;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
 }
@@ -359,7 +359,7 @@ img {
 .breakpoint-off .classynav ul li .dropdown {
   width: 180px;
   position: absolute;
-  background-color: #ffffff;
+  background-color: #1d1f21; /*#ffffff;*/
   top: 120%;
   left: 0;
   z-index: 100;
@@ -415,7 +415,7 @@ img {
   width: 100%;
   left: 0;
   top: 120%;
-  background-color: #ffffff;
+  background-color: #1d1f21;
   z-index: 200;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
   -webkit-transition-duration: 300ms;
@@ -426,6 +426,13 @@ img {
   visibility: visible;
   opacity: 1;
 }
+/*.breakpoint-off .classynav-logo {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #000000;
+}*/
 /* Mobile/Tablet Nav CSS */
 .breakpoint-on .classycloseIcon {
   display: block;
@@ -434,7 +441,7 @@ img {
   display: block;
 }
 .breakpoint-on .classy-navbar .classy-menu {
-  background-color: #ffffff;
+  background-color: #1d1f21; /*#0e0f10; #ffffff;*/
   position: fixed;
   top: 0;
   left: -310px;
@@ -495,6 +502,13 @@ img {
 .breakpoint-on .classynav {
   padding-top: 70px;
 }
+/*.breakpoint-on .classynav-logo {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #000000;
+}*/
 .breakpoint-on .classynav ul li .megamenu {
   position: relative;
   width: 100%;
@@ -511,7 +525,7 @@ img {
   border-bottom: 1px solid #f2f4f8;
 }
 .breakpoint-on .classynav>ul>li>a {
-  background-color: #f2f4f8;
+  background-color: #212529; /*#f2f4f8;*/
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 .breakpoint-on .classynav ul li ul.dropdown li ul li {
@@ -543,10 +557,10 @@ img {
   color: #ffffff;
 }
 .dark .classynav ul li .dropdown {
-  background-color: #192a56;
+  background-color: #1d1f21; /*#192a56;*/
 }
 .dark .classynav ul li .megamenu {
-  background-color: #192a56;
+  background-color: #1d1f21;/*#192a56;*/
 }
 .dark .classynav ul li .megamenu .single-mega.cn-col-5,
 .dark .classynav ul li .megamenu .single-mega.cn-col-4,
@@ -578,7 +592,7 @@ img {
   border-right: none;
 }
 .dark .classynav ul li.megamenu-item>a:after {
-  color: #ffffff;
+  color: #1d1f21; /*#ffffff;*/
 }
 .dark .classynav ul li .dropdown li a {
   border-bottom: 1px solid rgba(242, 244, 248, 0.1);
