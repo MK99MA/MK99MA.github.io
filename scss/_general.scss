@@ -19,6 +19,13 @@
   background-size: contain;
 }
 
+.pluginlistReplacer{
+  text-indent: -9999px;
+  height: 75px;
+  background: url(img/headlines/pluginlist.png) transparent no-repeat;
+  background-size: contain;
+}
+
 .latestReplacer{
   text-indent: -9999px;
   height: 75px;
@@ -63,4 +70,20 @@
 
 .lyrics {
   color : $custcol;
+}
+
+.featurelist{
+  font-size: 20px;
+  color : $white;
+  -webkit-text-stroke: 0.5px $custcol;
+  li{
+    font-size: 15px;
+    padding-left: 5px;
+    color: $blogcol;
+    -webkit-text-stroke: 0 $custcol;
+  }
+  b{
+    color: #a00c0c;
+    -webkit-text-stroke: 0.5px black;
+  }
 }

@@ -163,6 +163,155 @@
     }
 }
 
+.razo-single-latest-news-area-2 {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 320px;
+
+    @media #{$breakpoint-lg} {
+        height: 470px;
+    }
+
+    @media #{$breakpoint-xs} {
+        height: 450px;
+    }
+
+    @media #{$breakpoint-sm} {
+        height: 400px;
+    }
+
+    .post-head{
+      position: absolute;
+      top: 0;
+      left: 50px;
+      z-index: 10;
+      width: 300px;
+      text-align: center;
+
+      @media #{$breakpoint-xs} {
+          left: 30px;
+          width: 150px;
+      }
+      a {
+          display: block;
+          background-color: $primary;
+          font-size: 40px;
+          padding: 10px 0;
+          color: $white;
+          margin-bottom: 0;
+          line-height: 1;
+          text-shadow: 1px 1px 2px $custcol;
+
+          @media #{$breakpoint-xs} {
+              font-size: 20px;
+          }
+      }
+
+      p {
+          background-color: $white;
+          font-size: 14px;
+          color: $text;
+          padding: 5px 0;
+          margin-bottom: 0;
+          font-weight: 600;
+      }
+    }
+
+    .post-date {
+        position: absolute;
+        top: 0;
+        right: 50px;
+        z-index: 10;
+        width: 100px;
+        text-align: center;
+
+        @media #{$breakpoint-xs} {
+            right: 30px;
+            width: 90px;
+        }
+
+        h2 {
+            display: block;
+            background-color: $primary;
+            font-size: 40px;
+            padding: 10px 0;
+            color: $white;
+            margin-bottom: 0;
+            line-height: 1;
+
+            @media #{$breakpoint-xs} {
+                font-size: 20px;
+            }
+        }
+
+        p {
+            background-color: $white;
+            font-size: 14px;
+            color: $text;
+            padding: 5px 0;
+            margin-bottom: 0;
+            font-weight: 600;
+        }
+    }
+
+    .post-content {
+        position: absolute;
+        width: 60%;
+        height: auto;
+        bottom: 50px;
+        left: 50px;
+        z-index: 10;
+
+        @media #{$breakpoint-xs} {
+            bottom: 30px;
+            left: 30px;
+        }
+
+        .post-title {
+            font-family: $font-oswald;
+            font-size: 30px;
+            color: $white;
+            display: block;
+            margin-bottom: 15px;
+
+            @media #{$breakpoint-lg} {
+                font-size: 24px;
+            }
+
+            @media #{$breakpoint-md} {
+                font-size: 24px;
+            }
+
+            @media #{$breakpoint-xs} {
+                font-size: 20px;
+            }
+
+            &:hover,
+            &:focus {
+                color: $hover;
+            }
+        }
+
+        p {
+            margin-bottom: 0;
+            color: $white;
+
+            @media #{$breakpoint-lg} {
+                font-size: 14px;
+            }
+
+            @media #{$breakpoint-md} {
+                font-size: 14px;
+            }
+
+            @media #{$breakpoint-xs} {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
 .razo-single-latest-news-area {
     position: relative;
     z-index: 1;
@@ -205,6 +354,42 @@
 
             @media #{$breakpoint-xs} {
                 font-size: 30px;
+            }
+        }
+
+        p {
+            background-color: $white;
+            font-size: 14px;
+            color: $text;
+            padding: 5px 0;
+            margin-bottom: 0;
+            font-weight: 600;
+        }
+    }
+    .post-date-2 {
+        position: absolute;
+        top: 0;
+        left: 50px;
+        z-index: 10;
+        width: 100px;
+        text-align: center;
+
+        @media #{$breakpoint-xs} {
+            left: 30px;
+            width: 90px;
+        }
+
+        h2 {
+            display: block;
+            background-color: $primary;
+            font-size: 40px;
+            padding: 10px 0;
+            color: $white;
+            margin-bottom: 0;
+            line-height: 1;
+
+            @media #{$breakpoint-xs} {
+                font-size: 20px;
             }
         }
 
@@ -339,12 +524,42 @@
 .razo-blog-masonary-single-item {
     position: relative;
     z-index: 1;
-    border-radius: 2px;
+    width: 100%;
+    border-radius: 20px;
     box-shadow: 0 1px 15px 1px rgba(0, 0, 0, 0.15);
 
+    .divlink{
+      position:absolute;
+      width:100%;
+      height:100%;
+      top:0;
+      left: 0;
+
+      z-index: 1;
+    }
+
     .post-thumbnail {
+      padding: 2px 0px;
+      background-image: linear-gradient(to right, black, transparent);
+      border-radius: 20px 20px 0px 0px;
+        img {
+            padding-left: 20px;
+            border-radius: 2px 2px 0 0;
+            max-height: 80px;
+        }
+
+        a {
+            display: block;
+        }
+    }
+    .post-footer {
+      padding: 2px 0px;
+      background-image: linear-gradient(to right, black, transparent);
+      border-radius: 0px 0px 20px 20px;
         img {
             border-radius: 2px 2px 0 0;
+            max-width: 20%;
+            padding: 5px 5px;
         }
 
         a {
