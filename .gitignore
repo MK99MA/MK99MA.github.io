@@ -4,6 +4,7 @@
 /Scoutapp
 /backup/*
 /.presets/*
+/pages/old
 
 !/audio
 !/css
