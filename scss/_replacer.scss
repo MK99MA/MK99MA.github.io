@@ -1,0 +1,103 @@
+/* REPLACER */
+
+.changelogReplacer{
+  text-indent: -9999px;
+  height: 75px;
+  background: url(img/headlines/changelog.png) transparent no-repeat;
+  background-size: contain;
+}
+
+.contactReplacer{
+  text-indent: -9999px;
+  height: 55px;
+  background: url(img/headlines/contact.png) transparent no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.creditsReplacer{
+  text-indent: -9999px;
+  height: 75px;
+  background: url(img/headlines/credits.png) transparent no-repeat;
+  background-size: contain;
+}
+
+.descriptionReplacer{
+  text-indent: -9999px;
+  height: 75px;
+  background: url(img/headlines/description.png) transparent no-repeat;
+  background-size: contain;
+}
+
+.downloadReplacer{
+  text-indent: -9999px;
+  height: 75px;
+  background: url(img/headlines/download.png) transparent no-repeat;
+  background-size: contain;
+}
+
+.featuresReplacer{
+  text-indent: -9999px;
+  height: 75px;
+  background: url(img/headlines/features.png) transparent no-repeat;
+  background-size: contain;
+}
+
+.installReplacer{
+  text-indent: -9999px;
+  height: 75px;
+  background: url(img/headlines/installation.png) transparent no-repeat;
+  background-size: contain;
+}
+
+.latestReplacer{
+  text-indent: -9999px;
+  height: 75px;
+  background: url(img/headlines/latest.png) transparent no-repeat;
+  background-size: contain;
+}
+
+.mediaReplacer{
+  text-indent: -9999px;
+  height: 75px;
+  background: url(img/headlines/media.png) transparent no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.pluginlistReplacer{
+  text-indent: -9999px;
+  height: 110px;
+  border-radius: 20px;
+  box-shadow: 0 1px 15px 1px rgba(0, 0, 0, 0.15);
+}
+
+.relatedReplacer{
+  text-indent: -9999px;
+  height: 75px;
+  background: url(img/headlines/related.png) transparent no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.shortcutReplacer {
+  text-indent: -9999px;
+  height: 75px;
+  background: url(img/headlines/shortcuts.png) transparent no-repeat;
+  background-size: contain;
+}
+
+.welcomeReplacer {
+  text-indent: -9999px;
+  height: 75px;
+  background: url(img/headlines/welcome.png) transparent no-repeat;
+  background-size: contain;
+}
+
+.downloadcontainer img{
+  margin-right: 30px;
+  margin-left: 30px;
+  border: 1px solid $custcol;
+  border-radius: 50%;
+  background-color: $custcol;
+}

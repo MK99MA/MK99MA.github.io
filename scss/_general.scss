@@ -5,53 +5,19 @@
   background-size: contain;
 }
 
-.welcomeReplacer {
-  text-indent: -9999px;
-  height: 75px;
-  background: url(img/headlines/welcome.png) transparent no-repeat;
-  background-size: contain;
-}
-
-.shortcutReplacer {
-  text-indent: -9999px;
-  height: 75px;
-  background: url(img/headlines/shortcuts.png) transparent no-repeat;
-  background-size: contain;
-}
-
-.pluginlistReplacer{
-  text-indent: -9999px;
-  height: 75px;
-  background: url(img/headlines/pluginlist.png) transparent no-repeat;
-  background-size: contain;
-}
-
-.latestReplacer{
-  text-indent: -9999px;
-  height: 75px;
-  background: url(img/headlines/latest.png) transparent no-repeat;
-  background-size: contain;
-}
-
-.mediaReplacer{
-  text-indent: -9999px;
-  height: 75px;
-  background: url(img/headlines/media.png) transparent no-repeat;
-  background-size: contain;
-  background-position: center;
-}
+/* HIGHLIGHT */
 
 .highlight{
   color : $white;
   -webkit-text-stroke: 0.5px $custcol;
 }
 
-.downloadcontainer img{
-  margin-right: 30px;
-  margin-left: 30px;
-  border: 1px solid $custcol;
-  border-radius: 50%;
-  background-color: $custcol;
+.highlight2{
+  color : $custcol;
+  /*background: -webkit-linear-gradient(to right, rgba(250, 50, 21, 1.0), white);*/
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 2.0px rgba(250, 50, 21, 1.0);;
 }
 
 .caption{
@@ -60,16 +26,29 @@
   text-align: center;
 }
 
-.contactReplacer{
-  text-indent: -9999px;
-  height: 55px;
-  background: url(img/headlines/contact.png) transparent no-repeat;
-  background-size: contain;
-  background-position: center;
-}
-
 .lyrics {
   color : $custcol;
+}
+
+.featurewrapper{
+  padding-left: 1em;
+}
+.featurehighlight{
+  color: $headline;
+}
+
+.newtag{
+  font-size: 12px;
+  color: red;
+  -webkit-text-stroke: 1px $custcol;
+}
+
+.spanlist{
+  display: list-item;
+  margin-left: 2em;
+  b{
+    color: $headline;
+  }
 }
 
 .featurelist{
