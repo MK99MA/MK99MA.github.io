@@ -909,9 +909,12 @@
 .quicknav-container{
   display: inline-block;
   width: 100%;
-  padding: 80px 100px 5px 100px;
-  @media (max-width: 1024px) {
+  padding: 50px 50px 5px 50px;
+  @media (max-width: 1700px) {
     padding: 0 0 0 0;
+  }
+  @media(min-width: 2559px){
+    padding: 80px 100px 5px 200px;
   }
 }
 
@@ -921,26 +924,108 @@
   margin: 20px 20px 20px 20px;
   top: 80px;
   float: left;
-  width: 10vw;/*auto;*/
+  width: 15%; /*10vw;/*auto;*/
   border-radius: 10px;
   background-color: rgba(18,18,19, 0.5);
   background-image: url(img/bg-img/cogs_bg2.png);
   box-shadow: 0 0 1px 1px $headline, 0 0 10px 5px $primary;
-  @media (max-width: 1024px) {
+  @media (max-width: 1850px) {
+    width: 10vw;
+  }
+  @media (max-width: 1500px) {
     display: none;
   }
+  @media(min-width: 2560px){
+    width: 20%;
+  }
   h5{
-    font-size: 24px;
+    font-size: 26px;
     color: $custcol;
     border-bottom: 2px solid $primary;
-    padding: 5px 50px;
+    padding: 5px 10px;
+    @media(min-width: 2560px){
+      font-size: 48px;
+    }
   }
   a{
     display: block;
-    font-size: 20px;
+    font-size: 22px;
     padding: 2px 10px 0px 20px;
     color: white;
+    @media(min-width: 2560px){
+      font-size: 40px;
+    }
   }
+  a:last-child{
+    padding-bottom: 10px;
+  }
+}
+
+input[id^="spoiler"]{
+  display: none;
+}
+input[id^="spoiler"] + label{
+  display: block;
+  width: 100%;
+  /*margin: 0 auto;*/
+  padding: 5px 20px;
+  background-image: linear-gradient(to right, $primary, transparent);
+  color : $custcol;
+  -webkit-text-stroke: 1px $primary;
+  text-align: left;
+  font-size: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all .6s;
+}
+input[id^="spoiler"]:checked + label {
+  color: black;
+  background: $custcol;
+}
+input[id^="spoiler"] ~ .spoiler {
+  width: 98%;
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+  margin: 10px auto 0;
+  padding: 10px;
+  background-color: rgba(18,18,19, 0.5);
+  background-image: url(img/bg-img/cogs_bg2.png);
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: all .6s;
+  color: $custcol;
+  font-size: 18px;
+}
+input[id^="spoiler"]:checked + label + .spoiler{
+  height: auto;
+  opacity: 1;
+  padding: 10px;
+}
+
+
+.blog-dlcontainer {
+  width: 100%;
+  display: inline-flex;
+  border-radius: 10px;
+  border: 3px solid $custcol;
+  background-image: url(img/bg-img/cogs_bg2.png);
+  a{
+    margin: 50px auto;
+  }
+  figcaption{
+    text-align: center;
+    margin-top: 10px;
+  }
+  img{
+    border: 1px solid #e94615;
+    border-radius: 50%;
+    background-color: #e94615;
+  }
+}
+
+.related-news-area{
+  padding: 0 auto 0 auto;
 }
 
 .sticky {
@@ -1011,6 +1096,7 @@ a.anchor{
 
     .post-details-text {
       border-left: 2px inset $primary;
+      border-right: 2px inset $primary;
         h2{
 
         }
@@ -1024,7 +1110,7 @@ a.anchor{
         a {
           color: $custcol;
           font-size: 20px;
-          text-align: justify;
+          text-align: center;
             @media #{$breakpoint-xs} {
                 font-size: 14px;
             }

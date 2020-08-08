@@ -20,6 +20,12 @@
   -webkit-text-stroke: 2.0px rgba(250, 50, 21, 1.0);;
 }
 
+.highlight3{
+  font-size: 30px;
+  color : $white;
+  -webkit-text-stroke: 0.5px $custcol;
+}
+
 .caption{
   color : $headline;
   -webkit-text-stroke: 0.5px $custcol;
@@ -30,10 +36,28 @@
   color : $custcol;
 }
 
+.featuresection{
+  margin-bottom: 4em;
+  border-bottom: 2px dotted $primary;
+}
+
 .featurewrapper{
+  margin-bottom: 5px;
   padding-left: 1em;
 }
+
 .featurehighlight{
+  color: $headline;
+  margin-bottom: 5px;
+}
+
+.commandwrapper{
+  margin-bottom: 1em;
+  padding-left: 0.5em;
+  font-size: 12px;
+}
+
+.commandhighlight{
   color: $headline;
 }
 
@@ -43,11 +67,23 @@
   -webkit-text-stroke: 1px $custcol;
 }
 
+.infonotice{
+  font-size: 12px;
+  color: $custcol;
+  -webkit-text-stroke: 0.2px red;
+}
+
 .spanlist{
   display: list-item;
   margin-left: 2em;
   b{
     color: $headline;
+  }
+  b.install{
+    color: $custcol;
+  }
+  b.normal{
+    color: #6e6e6e;
   }
 }
 
