@@ -525,6 +525,7 @@
     position: relative;
     z-index: 1;
     width: 100%;
+    height:100%;
     border-radius: 20px;
     box-shadow: 0 1px 15px 1px rgba(0, 0, 0, 0.15);
     background-image: url(img/bg-img/cogs_bg2.png);
@@ -555,7 +556,9 @@
         }
     }
     .post-footer {
-      padding: 2px 0px;
+      position: absolute;
+      bottom:0;
+      padding: 0px 0px;
       background-color: #121213;
       background-image: linear-gradient(to right, black, transparent);
       border-radius: 0px 0px 20px 20px;
