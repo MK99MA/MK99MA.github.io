@@ -6,6 +6,7 @@
 /.presets/*
 /pages/old
 /img/headlines/DivergenceInput-1.0.exe
+/pages/maps/compile.html
 
 !/audio
 !/css

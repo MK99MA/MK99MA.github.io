@@ -858,11 +858,16 @@
     }
 
     .text {
+        padding-left: 10px;
+        border-left: 2px solid rgba(0,0,0, 0.5);
+        background-image: url(img/bg-img/cogs_bg2.png);
         p {
-            color: $heading;
+            color: $hover;
             margin-bottom: 15px;
             line-height: 1.6;
             font-weight: 400;
+            background-color: rgba(18,18,19, 0.75);
+            border-bottom: 1px solid $custcol;
 
             @media #{$breakpoint-xs} {
                 font-size: 18px;
@@ -871,7 +876,8 @@
 
         h6 {
             margin-bottom: 0;
-            color: $hover;
+            color : $white;
+            -webkit-text-stroke: 0.5px $custcol;
         }
     }
 }
@@ -883,22 +889,24 @@
 
     ul {
         li {
+            color:rgba(255, 255, 255, 0.2);
             margin: 5px;
             font-weight: 600;
 
             a {
                 display: inline-block;
-                background-color: $white;
+                background-color: rgba(0, 0, 0, 0.2);
+                border-radius: 5px;
                 color: $hover;
                 text-transform: capitalize;
-                font-size: 16px;
+                font-size: 8px;
                 margin: 5px;
                 font-weight: 600;
 
                 &:focus,
                 &:hover {
                     background-color: transparent;
-                    color: $heading;
+                    color: $primary;
                 }
 
                 @media #{$breakpoint-xs} {
@@ -907,6 +915,13 @@
             }
         }
     }
+}
+
+.imgstyle{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px inset $hover;
 }
 
 .quicknav-container{
@@ -922,7 +937,7 @@
 }
 
 .quicknav-menu{
-  z-index: 50;
+  z-index: 9;
   position: sticky;/*absolute;*/
   margin: 20px 20px 20px 20px;
   top: 80px;
@@ -950,11 +965,22 @@
       font-size: 48px;
     }
   }
+  h6{
+    font-size: 24px;
+    color: $primary;
+    background-color: rgba(18,18,19, 0.7);
+    border-bottom: 2px solid $primary;
+    padding: 5px 10px;
+    @media(min-width: 2560px){
+      font-size: 48px;
+    }
+  }
   a{
     display: block;
     font-size: 22px;
     padding: 2px 10px 0px 20px;
     color: white;
+    border-bottom: 0.5px inset rgba(18,18,19, 0.5);
     @media(min-width: 2560px){
       font-size: 40px;
     }
@@ -1025,10 +1051,28 @@ input[id^="spoiler"]:checked + label + .spoiler{
     border-radius: 50%;
     background-color: #e94615;
   }
+  img.gdrive{
+    width: 64px;
+    border: 1px solid #e94615;
+    border-radius: 25%;
+    background-color: #e94615;
+  }
 }
 
 .related-news-area{
   padding: 0 auto 0 auto;
+}
+
+.mapimg{
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 90%;
+  border: 3px solid #e94615;
+  border-radius: 2%;
+  background-color: #e94615;
 }
 
 .sticky {

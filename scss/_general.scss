@@ -32,6 +32,20 @@
   text-align: center;
 }
 
+.code{
+  padding-right: 5px;
+  margin-left: 50px;
+  border-left: 2px solid $hover;
+  background-color: rgba(0, 0, 0, 0.3);
+  .inner-shadow-left {
+    box-shadow: inset 8px 0 10px -6px $primary;
+  }
+  p{
+    margin-left: 20px;
+    color: $hover;
+  }
+}
+
 .lyrics {
   color : $custcol;
 }
@@ -74,6 +88,12 @@
   -webkit-text-stroke: 0.2px red;
 }
 
+.borderdivide{
+  border-bottom: 2px solid $primary;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
 .spanlist{
   display: list-item;
   margin-left: 2em;
@@ -85,6 +105,9 @@
   }
   b.normal{
     color: #6e6e6e;
+  }
+  .rates{
+    font-size: 14px;
   }
 }
 

@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Title -->
-    <title>MK99 (WIP) | SoMoE-19</title>
+    <title>MK99 (WIP) | SoMoE-SoScore Addition</title>
 
     <!-- Favicon -->
     <link rel="icon" href="../../img/favicon.ico">
@@ -96,7 +96,7 @@
                                                         <li><a href="../maps/soccermap.html">● Create a Soccermap</a></li>
                                                     </ul>
                                                   </li>
-                                                  <li><a href="#">● Maps</a>
+                                                  <li><a href="../maplist.html">● Maps</a>
                                                     <ul class="dropdown">
                                                         <li><a href="../maps/mapscss.html">● CS:S Maps</a></li>
                                                         <li><a href="../maps/mapscsgo.html">● CS:GO Maps</a></li>
@@ -260,10 +260,10 @@
             <div class="row h-100 align-items-center">
                 <div class="col-12">
                     <div class="post-title-text">
-                        <h2><b class="highlight2">So</b>ccer<b class="highlight2">Mo</b>d<b class="highlight2"> E</b>dit<b class="highlight2">-19</b></h2>
+                        <h2><b class="highlight2">So</b>ccer<b class="highlight2">Mo</b>d<b class="highlight2"> E</b>dit<b class="highlight2">-19-SoScore Addition</b></h2>
                         <div class="post-meta">
-                            <a href="https://github.com/MK99MA/SoMoE-19/commit/fa670def24353912edde8647a38f2a45899888ee">Last Update: July 21, 2020</a>
-                            <a href="https://github.com/MK99MA/SoMoE-19/commit/fa670def24353912edde8647a38f2a45899888ee">Version 1.2.5</a>
+                            <a href="https://github.com/MK99MA/SoMoE-19-SoScore-addition/commit/7b1710cd36ec4a67d59a3f701ed9b75bf565e0d4">Last Update: August 05, 2020</a>
+                            <a href="https://github.com/MK99MA/SoMoE-19-SoScore-addition/commit/7b1710cd36ec4a67d59a3f701ed9b75bf565e0d4">Version 1.2.0</a>
                         </div>
                         <a href="https://www.sourcemod.net/"><img src="../../img/core-img/sourcemod.png" alt=""></a>
                     </div>
@@ -296,198 +296,47 @@
                     <div class="col-10 col-md-10 col-lg-9">
                       <h2 class="descriptionReplacer">Description</h2><a class="anchor" id="Description"></a>
                         <p>
-                          <span class="highlight">So</span>ccer <span class="highlight">Mo</span>d<span class="highlight"> E</span>dit<span class="highlight">-19</span> is an edited Version of <a href="https://github.com/marcoboogers/soccermod">Marco Boogers Soccermod Sourcemod plugin</a>. The edited version is, unlike the original version only compatible with Counter-Strike: Source, but tries to fix minor errors as well as adding new features. A list of all its features and a short description cann be found below. While it is not necessary to read all the information below, doing so should give you a good overview of what you can expect from this plugin and what not. Also, please note that the base code was written by Marco Boogers and this is the first Sourcemod plugin I ever worked on, so the code itself might be inconsistent and heavily improvable. If you do find any issues feel free to create an <a href="https://github.com/MK99MA/SoMoE-19/issues">issue</a> on the plugins Github repo.
+                          <span class="highlight">So</span>ccer <span class="highlight">Mo</span>d<span class="highlight"> E</span>dit<span class="highlight">-19-SoScore Addition</span> is a 'light' slimmed down plugin based on SoMoE-19 features. It is supposed to be a complimentary plugin to Forlix SoScore & SoStats which are better suited for public Soccer Servers. Just like SoMoE-19 it is only aimed at Counter-Strike: Source servers for now.
                           <br />
                           <br />
                         </p>
                       <h2 class="creditsReplacer">Credits</h2><a class="anchor" id="Credits"></a>
-                        <p>As stated above most of the code was created by Marco Boogers for his original version of the plugin. Next to his base code, I also used code-snippets from other plugins and merely modified those in a way to fit them into one plugin (file).<br />
+                        <p>Since it is based on SoMoE-19, most of the code was only partially edited by me to suit my needs and fit into one plugin.<br />
                           <br />
                           Therefore almost all credit should go to the following creators of the respective original works:
                             <span class="spanlist"><b>Original Soccermod</b> - by Marco Boogers - <a href="https://github.com/marcoboogers/soccermod">Link</a></span>
-                            <span class="spanlist"><b>DuckjumpBlock Script</b> - by Marco Boogers</span>
                             <span class="spanlist"><b>Allchat (aka DeadChat)</b> - by Frenzzy - <a href="https://forums.alliedmods.net/showthread.php?t=171734">Link</a></span>
                             <span class="spanlist"><b>ShortSprint</b> - by walmar - <a href="https://forums.alliedmods.net/showthread.php?p=2294299">Link</a></span>
-                            <span class="spanlist"><b>Simple AFK kicker</b> - by shavit - <a href="https://forums.alliedmods.net/showthread.php?p=2409504">Link</a></span>
+                            <span class="spanlist"><b>Advertisements</b> - by DJ Tsunami - <a href="https://forums.alliedmods.net/showthread.php?p=592536">Link</a></span>
                             <span class="spanlist"><b>Updater</b> - by GoD-Tony - <a href="https://forums.alliedmods.net/showthread.php?t=169095">Link</a></span>
                             <br />
                             <br />
                         </p>
                       <h2 class="featuresReplacer">Features</h2><a class="anchor" id="Features"></a>
                         <p>
-                          <span class="highlight3"><b>General:</b></span><br />
+                          <span class="highlight3"><b>Modules:</b></span><br />
                         </p>
                         <div class="featuresection">
                           <p class="featurewrapper">
-                            <span class="featurehighlight"><b>Soccermod Menu:</b></span> A menu to quickly access non-passive features of the plugin. Extended menu as well as changed its command (!menu). Also features a helpmenu giving you a list of every usable command. <span class="newtag">*MODIFIED*</span><br />
+                            <span class="featurehighlight"><b>Sprint:</b></span> The same configurable sprint as in SoMoE-19. (Different notification modes; changeable length, cooldown etc.)<br />
                           </p>
                           <p class="featurewrapper">
-                            <span class="featurehighlight"><b>Commands:</b></span> Edited and additional commands to quickly access certain aspects of the plugin. <span class="newtag">*MODIFIED*</span><br />
+                            <span class="featurehighlight"><b>Adverts:</b></span> Easily setup adverts to displayed in chat, the center of the screen or any other valid text location. Use different colors, change the interval between messages, etc.<br />
                           </p>
                           <p class="featurewrapper">
-                            <span class="featurehighlight"><b>Configs:</b></span> Centralized folder for any plugin related configs (cfg/sm_soccermod). Different configs to control certain aspects of the plugin (main, admins, maps, cap-positions, downloads, gk-areas, skins) <span class="newtag">*NEW*</span><br />
+                            <span class="featurehighlight"><b>Chat:</b></span> Colored plugin-related chat messages. Also includes DeadChat to allow spectators / dead people to communicate with the living players.<br />
                           </p>
                           <p class="featurewrapper">
-                            <span class="featurehighlight"><b>Permissions:</b></span> Every Sourcemod Admin (flag 'b') is automatically granted access to the admin menu. Since not everyone who should have access to the commands (all the time) should also be a Sourcemod admin the plugin features its own small modular admin system. <span class="newtag">*NEW*</span><br />
+                            <span class="featurehighlight"><b>Skins:</b></span> Control the used skins (field & gk) as well as handling their download to the clients.<br />
                           </p>
                           <p class="featurewrapper">
-                            <span class="featurehighlight"><b>Access-Modes:</b></span> Different access-modes to limit commands and menu-access. <span class="newtag">*NEW*</span><br />
+                            <span class="featurehighlight"><b>Rules:</b></span> A separate menu for you to write down your rules, so your players can check them easily at any time.<br />
                           </p>
                           <p class="featurewrapper">
-                            <span class="featurehighlight"><b>Updater:</b></span> Automatically get any updates and fixes due to the inplementation of updater-support. (If you correctly installed Updater itself!) <span class="newtag">*NEW*</span><br />
+                            <span class="featurehighlight"><b>Menu:</b></span> Basic menu to control certain settings of the plugin.<br />
                           </p>
                           <p class="featurewrapper">
-                            <span class="featurehighlight"><b>Scoreboard:</b></span> Display the number of goals (kills) and assists (deaths) on the scoreboard, as well as the matchscore. <span class="newtag">*MODIFIED*</span><br />
-                          </p>
-                          <p class="featurewrapper">
-                            <span class="featurehighlight"><b>Sprint:</b></span> Variable sprint settings for server owners, as well as variable notification settings (Chat, Defuse Bar, Hud Timer, Sound) for your players. Usable by binding the command (sm_sprint / say !sprint) or using your '+use' key (Default 'e'). <span class="newtag">*MODIFIED*</span><br />
-                          </p>
-                          <p class="featurewrapper">
-                            <span class="featurehighlight"><b>Respawn:</b></span> Variable respawn for joining players or those killing themselves. <br />
-                          </p>
-                          <p class="featurewrapper">
-                            <span class="featurehighlight"><b>Godmode:</b></span> Prevents players from being killed by getting hit by the ball.<br />
-                          </p>
-                          <p class="featurewrapper">
-                            <span class="featurehighlight"><b>Skins & Downloads:</b></span> Control which files should be downloaded to the players and choose which skins (field + gk) should be used.<br />
-                          </p>
-                          <p class="featurewrapper">
-                            <span class="featurehighlight"><b>Statistics:</b></span> Track points, goals and other stats during a match.<br />
-                          </p>
-                        </div>
-                        <p>
-                          <span class="highlight3"><b>Match:</b></span><br />
-                        </p>
-                        <div class="featuresection">
-                          <p class="featurewrapper">
-                            <span class="featurehighlight"><b>Starting a match:</b></span> Start a match with the current match settings either by menu or command (!start). <span class="newtag">*MODIFIED*</span><br />
-                          </p>
-                          <p class="featurewrapper">
-                            <span class="featurehighlight"><b>Stopping a match:</b></span> Immediately stop a running match either by menu or command (!stop). <span class="newtag">*MODIFIED*</span><br />
-                          </p>
-                          <p class="featurewrapper">
-                            <span class="featurehighlight"><b>Pausing a match:</b></span> Pause a running match either by menu or command (!pause / !p). <span class="newtag">*MODIFIED*</span><br />
-                          </p>
-                          <p class="featurewrapper">
-                            <span class="featurehighlight"><b>Unpausing a match:</b></span> Different unpause modes (Fully Manual, ReadyCheck Auto / Manual ). If set to Fully Manual any admin can unpause the match by menu or command (!unpause / !unp). If set to either of the ReadyCheck modes, a menu will pop-up for every player in either CT or T, allowing them to choose their state (Ready / Not Ready). If everyone is ready (or an admin uses the forceunpause command)the match will either unpause automatically or will unlock the unpause command for the admins.  <span class="newtag">*MODIFIED*</span><br />
-                          </p>
-                          <p class="featurewrapper">
-                            <span class="featurehighlight"><b>Pause:</b></span> Keep track of the pause duration with a timer and chat message (after the match is unpaused). Unpausing will also start a 5 second countdown (with sound) to prepare player for the resuming match. <span class="newtag">*MODIFIED*</span><br />
-                          </p>
-                          <p class="featurewrapper">
-                            <span class="featurehighlight"><b>Match Settings:</b></span> Control the settings of the match (halftime length, periods, break length) with the ingame Match Menu.<br />
-                          </p>
-                          <p class="featurewrapper">
-                            <span class="featurehighlight"><b>Team Names:</b></span> Change the names of the two teams (Requires Sourcemod admin permissions). Either use the default values (T/CT), type in a custom name, or use the tag of the teams members as a preset. <span class="newtag">*NEW*</span><br />
-                          </p>
-                          <p class="featurewrapper">
-                            <span class="featurehighlight"><b>Match Info:</b></span> Toggleable and variable display of information regarding the match (Controllable with the Match Menu) are shown in chat when a match starts. In addition most values of relevance are shown in the Match Menu itself. <span class="newtag">*NEW*</span><br />
-                          </p>
-                          <p class="featurewrapper">
-                            <span class="featurehighlight"><b>Matchlog:</b></span> Toggle and view logs of matches ingame. Also creates a physical log in the centralized config folder for belated access. <span class="newtag">*NEW*</span><br />
-                          </p>
-                          <p class="featurewrapper">
-                            <span class="featurehighlight"><b>Forfeit Vote:</b></span> Toggle and control the requirements for a forfeit vote during a match. A successful forfeit vote will immediately abort the ongoing match. <span class="newtag">*NEW*</span><br />
-                          </p>
-                        </div>
-                        <p>
-                          <span class="highlight3"><b>Cap:</b></span><br />
-                        </p>
-                        <div class="featuresection">
-                          <p class="featurewrapper">
-                            <span class="featurehighlight"><b>Spec all:</b></span> Put all CT and T players to spec in preparation of a cap fight. <br />
-                          </p>
-                          <p class="featurewrapper">
-                            <span class="featurehighlight"><b>Add Random Player:</b></span> Put a random player from spec into one of the teams. <br />
-                          </p>
-                          <p class="featurewrapper">
-                            <span class="featurehighlight"><b>Cap Fight:</b></span> Disable Godmode & Sprint and let two captains face each other in a knife-fight for the right of the first pick. <span class="newtag">*MODIFIED*</span><br />
-                          </p>
-                          <p class="featurewrapper">
-                            <span class="featurehighlight"><b>Pick Menu:</b></span> After a Cap Fight is started a menu will be displayed to everyone in spec allowing them to pick any position they can / want to play in the upcoming cap. Any selected position will be shown to the caps in their pick menu.  <span class="newtag">*MODIFIED*</span><br />
-                          </p>
-                          <p class="featurewrapper">
-                            <span class="featurehighlight"><b>Lock Server:</b></span> Toggleable and variable setting to automatically lock the server (change the password to a random value) if a Cap is started as well as automatically disabling the state as soon as a Match is started as a follow-up to a cap. While the server is 'locked' an AFK Kick is active, asking inactive players to solve a captcha menu. Failing to do so (wrong or no choice) will kick the player. If the number of players on the server is lower than the pre-set threshold the server will then automatically use the default password until said threshold is reached again.  <span class="newtag">*NEW*</span><br />
-                          </p>
-                        </div>
-                        <p>
-                          <span class="highlight3"><b>Training:</b></span><br />
-                        </p>
-                        <div class="featuresection">
-                          <p class="featurewrapper">
-                            <span class="featurehighlight"><b>Cannon:</b></span> Setup a cannon shooting the ball (Power, Position, Direction, Randomness, Delay between shots). Use it to train your GK reflexes or to simulate other players passes. A bug where people standing on the ball after turning the cannon off would catapult them into air was fixed in this version. <span class="newtag">*MODIFIED*</span><br />
-                          </p>
-                          <p class="featurewrapper">
-                            <span class="featurehighlight"><b>Personal Cannon:</b></span> Every player with the according permissions can also create a personal cannon (which will use the training ball and its own settings for Power, Randomness, etc). <span class="newtag">*NEW*</span><br />
-                          </p>
-                          <p class="featurewrapper">
-                            <span class="featurehighlight"><b>Spawn Ball:</b></span> Every player with the permission to do so can spawn a training ball wherever they're pointing. Spawning and De-Spawning got a small cooldown, and you have to be in one of the two teams to use this feature. <span class="newtag">*MODIFIED*</span><br />
-                          </p>
-                          <p class="featurewrapper">
-                            <span class="featurehighlight"><b>Enable/Disable Goals:</b></span> Disable the goals if you're doing a training session or people are constantly scoring while you are preparating for a match or cap. <br />
-                          </p>
-                        </div>
-                        <p>
-                          <span class="highlight3"><b>Referee:</b></span><br />
-                        </p>
-                        <div class="featuresection">
-                          <p class="featurewrapper">
-                            <span class="featurehighlight"><b>Yellow Card:</b></span> Give players a yellow card to warn them for their misbehaviour. A second yellow card will result in a yellow-red card which will put the player to spectator and will also prevent him from joining any team until the card is removed. <br />
-                          </p>
-                          <p class="featurewrapper">
-                            <span class="featurehighlight"><b>Red Card:</b></span> Give players a red card to punish them for heavy misbehaviour. This will send them directly to spectator and prevent them from joining any of the teams until the card is removed. <br />
-                          </p>
-                          <p class="featurewrapper">
-                            <span class="featurehighlight"><b>Remove Cards:</b></span> Remove a single yellow or red card, or wipe any currently given cards at once. <span class="newtag">*MODIFIED*</span><br />
-                          </p>
-                          <p class="featurewrapper">
-                            <span class="featurehighlight"><b>Control Score:</b></span> Add or Remove goals for either team to correct the current score (EXAMPLE: A team scores while one or more opponent was afk and they were not ready). You can also reset the score to its initial value of 0:0. <br />
-                          </p>
-                        </div>
-                        <p>
-                          <span class="highlight3"><b>Misc:</b></span><br />
-                        </p>
-                        <div class="featuresection">
-                          <p class="featurewrapper">
-                            <span class="featurehighlight"><b>Spec Player:</b></span> Quickly put a player in one of the teams to spectator.<br />
-                          </p>
-                          <p class="featurewrapper">
-                            <span class="featurehighlight"><b>Change maps:</b></span> Any map added to the plugins maplist will be choosable from a menu for a quick mapchange.<br />
-                          </p>
-                          <p class="featurewrapper">
-                            <span class="featurehighlight"><b>Manage Admins:</b></span> (Requires rcon permissions in Sourcemod) Add, edit or remove admins ingame. You can modify Soccermod admins, but also Sourcemod admins with this menu. Also features a menu list of admins divided into the two different types (Sourcmeod / Soccer). <span class="newtag">*NEW*</span><br />
-                          </p>
-                          <p class="featurewrapper">
-                            <span class="featurehighlight"><b>Allowed maps:</b></span> Add or remove maps which should utilize the plugin and be added to the Change map submenu. <br />
-                          </p>
-                          <p class="featurewrapper">
-                            <span class="featurehighlight"><b>Ready Check:</b></span> Toggle and control the settings of the ReadyCheck used during pauses in a match. <span class="newtag">*NEW*</span><br />
-                          </p>
-                          <p class="featurewrapper">
-                            <span class="featurehighlight"><b>Damage Sounds:</b></span> Disable the damage sound players would hear when they are hit by the ball. <span class="newtag">*NEW*</span><br />
-                          </p>
-                          <p class="featurewrapper">
-                            <span class="featurehighlight"><b>Remove Ragdolls:</b></span> Choose 1 out of 3 modes to handle the ragdolls of dying players. No - do nothing; Yes - despawn them; Dissolve - Apply the dissolve effect from HL2 and remove them. <span class="newtag">*NEW*</span><br />
-                          </p>
-                          <p class="featurewrapper">
-                            <span class="featurehighlight"><b>DuckjumpBlock:</b></span> Tries to revert the duckjump "state" if a player tries to gain an advantage by using it in an airduel. <span class="newtag">*NEW*</span><br />
-                          </p>
-                          <p class="featurewrapper">
-                            <span class="featurehighlight"><b>Shout Plugin:</b></span> If my Shout-Plugin is installed on the server shortcuts for its 2 commands are added to the Soccermod Menu. <span class="newtag">*NEW*</span><br />
-                          </p>
-                        </div>
-                        <p>
-                          <span class="highlight3"><b>Chat:</b></span><br />
-                        </p>
-                        <div class="featuresection">
-                          <p class="featurewrapper">
-                            <span class="featurehighlight"><b>Chat Style:</b></span> Control the chat style of any plugin related messages. You can choose the prefix, the chat color as well as the prefix color.  <span class="newtag">*MODIFIED*</span><br />
-                          </p>
-                          <p class="featurewrapper">
-                            <span class="featurehighlight"><b>MVP Messages:</b></span> Since the original plugin comes with a point system, you can display the MVP of the round in chat and scoreboard or disable it. <span class="newtag">*MODIFIED*</span><br />
-                          </p>
-                          <p class="featurewrapper">
-                            <span class="featurehighlight"><b>DeadChat:</b></span> Toggle and control deadchat settings. <span class="newtag">*NEW*</span><br />
+                            <span class="featurehighlight"><b>Updater:</b></span> Automatically get any updates and fixes due to the inplementation of updater-support. (If you correctly installed Updater itself!) <span class="newtag"></span><br />
                           </p>
                         </div>
 
@@ -496,97 +345,28 @@
                           <span class="highlight"><b>Main Command:</b></span><br />
                         </p>
                         <p class="commandwrapper">
-                          <span class="commandhighlight"><b>!menu / sm_menu -</b></span> Opens the Soccermod main menu. <br />
+                          <span class="commandhighlight"><b>!menu / sm_menu -</b></span> Opens the main menu. <br />
 
-                          <span class="commandhighlight"><b>!madmin / sm_madmin -</b></span> Opens the Soccermod admin menu. <span class="newtag">*NEW*</span><br />
+                          <span class="commandhighlight"><b>!admins / sm_admins -</b></span> Opens the Soccermod online adminlist menu. <br />
 
-                          <span class="commandhighlight"><b>!gk / sm_gk -</b></span> Toggle the GK skin. <span class="newtag">*MODIFIED*</span><br />
+                          <span class="commandhighlight"><b>!rules / sm_rules -</b></span> Opens the rules menu. <br />
 
-                          <span class="commandhighlight"><b>!maprr / sm_maprr -</b></span> Quickly reload the map. <span class="newtag">*NEW*</span><br />
+                          <span class="commandhighlight"><b>!gk / sm_gk -</b></span> Toggle the GK skin. <br />
 
-                          <span class="commandhighlight"><b>!rr / sm_rr -</b></span> Quickly restart the round. <span class="newtag">*MODIFIED*</span><br />
-                        </p>
+                          <span class="commandhighlight"><b>!help / sm_help -</b></span> Opens the help menu. <br />
 
-                        <p>
-                          <span class="highlight"><b>Menu Shortcut Commands:</b></span><br />
-                        </p>
-                        <p class="commandwrapper">
-                          <span class="commandhighlight"><b>!match / sm_match -</b></span> Opens the Soccermod match menu. <span class="newtag">*MODIFIED*</span><br />
+                          <span class="commandhighlight"><b>!maprr / sm_maprr -</b></span> Quickly reload the map. <br />
 
-                          <span class="commandhighlight"><b>!cap / sm_cap -</b></span> Opens the Soccermod cap menu. <span class="newtag">*MODIFIED*</span><br />
-
-                          <span class="commandhighlight"><b>!training / sm_training -</b></span> Opens the Soccermod training menu. <span class="newtag">*NEW*</span><br />
-
-                          <span class="commandhighlight"><b>!ref / sm_ref -</b></span> Opens the Soccermod referee menu. <span class="newtag">*NEW*</span><br />
-
-                          <span class="commandhighlight"><b>!soccerset / sm_soccerset -</b></span> Opens the Soccermod settings menu. <span class="newtag">*NEW*</span><br />
-                        </p>
-
-                        <p>
-                          <span class="highlight"><b>Info Menu Commands:</b></span><br />
-                        </p>
-                        <p class="commandwrapper">
-                          <span class="commandhighlight"><b>!commands / sm_commands -</b></span> Opens the Soccermod commands menu. <span class="newtag">*MODIFIED*</span><br />
-
-                          <span class="commandhighlight"><b>!help / sm_help -</b></span> Opens the Soccermod help menu. <span class="newtag">*MODIFIED*</span><br />
-
-                          <span class="commandhighlight"><b>!admins / sm_admins -</b></span> Opens the Soccermod online adminlist menu. <span class="newtag">*NEW*</span><br />
-
-                          <span class="commandhighlight"><b>!stats / sm_stats -</b></span> Opens the Soccermod stats menu. <span class="newtag">*MODIFIED*</span><br />
-
-                          <span class="commandhighlight"><b>!rank / sm_rank -</b></span> Opens the Soccermod rank menu. <span class="newtag">*MODIFIED*</span><br />
-
-                          <span class="commandhighlight"><b>!credits / sm_credits -</b></span> Opens the Soccermod credits menu. <span class="newtag">*MODIFIED*</span><br />
-                        </p>
-
-                        <p>
-                          <span class="highlight"><b>Match Commands:</b></span><br />
-                        </p>
-                        <p class="commandwrapper">
-                          <span class="commandhighlight"><b>!start / sm_start -</b></span> Starts a match. <span class="newtag">*NEW*</span><br />
-
-                          <span class="commandhighlight"><b>!pause; !p / sm_pause; sm_p -</b></span> Pauses a match. <span class="newtag">*NEW*</span><br />
-
-                          <span class="commandhighlight"><b>!unpause; !unp / sm_unpause; sm_unp -</b></span> Unpauses a match. <span class="newtag">*NEW*</span><br />
-
-                          <span class="commandhighlight"><b>!stop / sm_stop -</b></span> Stops a match. <span class="newtag">*NEW*</span><br />
-
-                          <span class="commandhighlight"><b>!matchrr / sm_matchrr -</b></span> Quickly restart the current match. <span class="newtag">*NEW*</span><br />
-
-                          <span class="commandhighlight"><b>!rdy / sm_rdy -</b></span> (Re-)Opens the ReadyCheck Menu. <span class="newtag">*NEW*</span><br />
-                        </p>
-
-                        <p>
-                          <span class="highlight"><b>Cap Commands:</b></span><br />
-                        </p>
-                        <p class="commandwrapper">
-                          <span class="commandhighlight"><b>!pick / sm_pick -</b></span> (Re-)Opens the Soccermod pick menu. <span class="newtag">*MODIFIED*</span><br />
-                        </p>
-
-                        <p>
-                          <span class="highlight"><b>Admin Commands:</b></span><span class="infonotice"> (Requires SM RCON flag)</span><br />
-                        </p>
-                        <p class="commandwrapper">
-                          <span class="commandhighlight"><b>!addadmin / sm_addadmin -</b></span> Add an admin to the Sourcemod admins_simple.ini file. <span class="newtag">*NEW*</span><br />
-
-                          <span class="commandhighlight"><b>!dpass / sm_dpass -</b></span> Reset the server password to the default value. <span class="newtag">*NEW*</span><br />
-
-                          <span class="commandhighlight"><b>!forcerdy / sm_forcerdy -</b></span> Forces every player to be set to 'ready' during the current pause. <span class="newtag">*NEW*</span><br />
-
-                          <span class="commandhighlight"><b>!forceunp / sm_forceunp -</b></span> Forces the match to unpause. <span class="newtag">*NEW*</span><br />
-
-                          <span class="commandhighlight"><b>!pass / sm_pass -</b></span> Set a custom server password. <span class="newtag">*NEW*</span><br />
-
-                          <span class="commandhighlight"><b>!rpass / sm_rpass -</b></span> Set a random server password. <span class="newtag">*NEW*</span><br />
+                          <span class="commandhighlight"><b>!reloadads / sm_reloadads -</b></span> Reload the advertisements. <br />
                         </p>
 
                         <div class="mb-50"></div>
 
                         <h2 class="downloadReplacer">Download</h2><a class="anchor" id="Download"></a>
                           <div class="blog-dlcontainer">
-                            <a href="https://github.com/MK99MA/SoMoE-19"><img src="../../img/core-img/GitHub-Mark-64px.png" alt=""><figcaption class="caption">Source</figcaption></a>
-                            <a href="https://github.com/MK99MA/SoMoE-19/releases/tag/1.2.5"><img src="../../img/core-img/GitHub-Mark-Light-64px.png" alt=""><figcaption class="caption">Full 1.2.5</figcaption></a>
-                            <a href="https://github.com/MK99MA/soccermod-2019edit/raw/master/addons/sourcemod/plugins/soccer_mod.smx"><img src="../../img/core-img/GitHub-Mark-Light-64px.png" alt=""><figcaption class="caption">Plugin 1.2.5</figcaption></a>
+                            <a href="https://github.com/MK99MA/SoMoE-19-SoScore-addition"><img src="../../img/core-img/GitHub-Mark-64px.png" alt=""><figcaption class="caption">Source</figcaption></a>
+                            <a href="https://github.com/MK99MA/SoMoE-19-SoScore-addition/blob/master/addons/sourcemod/plugins/soccer_modules.smx"><img src="../../img/core-img/GitHub-Mark-Light-64px.png" alt=""><figcaption class="caption">Plugin 1.2.0</figcaption></a>
+                            <a href="https://github.com/MK99MA/SoMoE-19-SoScore-addition/blob/master/addons/sourcemod/plugins/old/"><img src="../../img/core-img/GitHub-Mark-Light-64px.png" alt=""><figcaption class="caption">Old versions</figcaption></a>
                           </div>
 
                         <div class="mb-50"></div>
@@ -604,12 +384,13 @@
                         </p>
 
                         <p>
-                          <span class="highlight"><b>II. Download Soccermod:</b></span><br />
+                          <span class="highlight"><b>II. Download Soccermod plugins:</b></span><br />
                         </p>
-                        <p>Next download Soccermod itself. There are 3 possible options to choose from:<br />
-                            <span class="spanlist"><b class="install">1. </b><a href="https://github.com/MK99MA/SoMoE-19/releases/tag/1.2.5">Full Package (v1.2.5)</a><br /> <span class="normal">Includes the plugin, source and the training ball model.</span></span>
-                            <span class="spanlist"><b class="install">2. </b><a href="https://github.com/MK99MA/soccermod-2019edit/raw/master/addons/sourcemod/plugins/soccer_mod.smx">Soccermod.smx (v1.2.5)</a><br /> <span class="normal">Includes only the latest plugin file for manual updates.</span></span>
-                            <span class="spanlist"><b class="install">3. </b><a href="https://github.com/MK99MA/soccermod-2019edit/blob/master/addons/sourcemod/plugins/old/">Previous versions</a> <br /> <span class="normal">A list of previous versions in case you have to roll-back for whatever reason (usually you shouldn't!)</span></span>
+                        <p>Next download SoScore and its complimentary plugins:<br />
+                            <span class="spanlist"><b class="install">1. </b><a href="http://forlix.org/gameaddons/soscore.shtml">SoScore</a></span>
+                            <span class="spanlist"><b class="install">2. </b><a href="http://forlix.org/gameaddons/sostats.shtml">SoStats</a></span>
+                            <span class="spanlist"><b class="install">3. </b><a href="https://github.com/MK99MA/SoMoE-19-SoScore-addition/blob/master/addons/sourcemod/plugins/soccer_modules.smx">Soccer_modules.smx (v1.2.0)</a><br /> <span class="normal"></span></span>
+                            <span class="spanlist"><b class="install">4. </b><a href="https://github.com/MK99MA/SoMoE-19-SoScore-addition/blob/master/addons/sourcemod/plugins/old/">Previous versions</a> <br /> <span class="normal">A list of previous versions in case you have to roll-back for whatever reason (usually you shouldn't!)</span></span>
                         </p>
 
                         <p>
@@ -619,6 +400,8 @@
                             <span class="spanlist"><b class="install">1. </b><a href="https://github.com/MK99MA/soccermod-2019edit/raw/master/skins/termi/termi_models.zip">Default skins</a><br /> <span class="normal">which were already part of the original eventscripts version.</span></span>
                             <span class="spanlist"><b class="install">2. </b><a href="https://github.com/MK99MA/soccermod-2019edit/tree/master/skins#alternative-skins-screenshots-below">Alternate skins</a><br /> <span class="normal"> A list of alternate skins people created.</span></span>
                             If you are using alternate skins make sure to edit <span class="commandhighlight">soccer_mod_skins.cfg</span> AND <span class="commandhighlight">soccer_mod_downloads.cfg</span> in your <span class="commandhighlight">cfg/sm_soccermod/</span> folder!! Follow <a href="https://github.com/MK99MA/soccermod-2019edit/tree/master/skins/EXAMPLE_soccer_mod_skins.cfg">this</a> and <a href="https://github.com/MK99MA/soccermod-2019edit/blob/master/skins/EXAMPLE_soccer_mod_downloads.cfg">this</a> for example files.
+                            <span class="spanlist"><b class="install">3. </b><a href="https://forums.alliedmods.net/showthread.php?p=708265">AFK-Kicker</a><br /> <span class="normal"> A customizable AFK-Kicker plugin.</span></span>
+                            <span class="spanlist"><b class="install">3. </b><a href="https://github.com/MK99MA/SoMoE-19-SoScore-addition/blob/master/addons/sourcemod/plugins/duckjumpblocker.smx">Duckjumpblock by Marco Boogers</a><br /> <span class="normal"> The duckjumpblock plugin which is also part of SoMoE-19.</span></span>
                         </p>
 
                         <p>
@@ -627,9 +410,8 @@
                         <p>After downloading the above files you have to extract its contents. Right click on each zip file and select 'Extract Here'. After extracting the zip files you should have the following folders wherever you extracted the zip files: <br />
                             <span class="spanlist"><b class="install">addons</b></span>
                             <span class="spanlist"><b class="install">cfg</b></span>
-                            <span class="spanlist"><b class="install">materials</b></span>
-                            <span class="spanlist"><b class="install">models</b></span>
-                            <span class="spanlist"><b class="install">sound</b></span>
+                            <span class="spanlist"><b class="install">materials (if you downloaded one of the skin sets)</b></span>
+                            <span class="spanlist"><b class="install">models (if you downloaded one of the skin sets)</b></span>
                         </p>
 
                         <p>
@@ -651,10 +433,10 @@
 
                         <h2 class="changelogReplacer">Changelog</h2><a class="anchor" id="Changelog"></a>
                         <input type="checkbox" id="spoiler" />
-                        <label for="spoiler">21-07-2020</label>
+                        <label for="spoiler">05-08-2020</label>
                         <div class="spoiler">
                           <p>
-                            <span class="highlight"><b>Update 1.2.5:</b></span><br />
+                            <span class="highlight"><b>Update 1.2.0:</b></span><br />
                           </p>
                           Fixed issue that would cause a huge error logspam.
                         </div>
@@ -667,6 +449,8 @@
                                     <li><i class="fa fa-tag"></i> Tag:</li>
                                     <li><a href="#">Sourcemod</a></li>
                                     <li><a href="#">Soccermod</a></li>
+                                    <li><a href="#">SoScore</a></li>
+                                    <li><a href="#">SoStats</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -690,30 +474,6 @@
             </div>
 
             <div class="row">
-              <!-- Single Blog Item
-              <div class="col-12 col-sm-6 col-lg-5 razo-blog-masonary-item mb-30">
-                  <div class="razo-blog-masonary-single-item">
-                      Post Thumbnail
-                      <div class="post-thumbnail">
-                          <a href="./soccermod.html"><span class="divlink"></span></span>SoMoE-19</a>
-                      </div>
-                      Post Content
-                      <div class="post-content">
-                        <div class="post-bg">
-                          <div class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> Last Update: July 21, 2020 - v1.2.5</div>
-                          <p class="post-title"><b class="highlight">So</b>ccer<b class="highlight">Mo</b>d<b class="highlight"> E</b>dit<b class="highlight">-19</b></p>
-                          <p>is a Sourcemod plugin for CS:S. <br />It features everything needed to play competitive Soccer matches, as well as a few optional but useful additions.<br />
-                          </br>
-                        </br>
-                          </p>
-                        </div>
-                      </div>
-                      <div class="post-footer">
-                          <img src="../../img/core-img/sourcemod.png" alt="">
-                      </div>
-                  </div>
-              </div>-->
-
               <!-- Single Blog Item -->
               <div class="col-12 col-sm-6 col-lg-6 razo-blog-masonary-item mb-30">
                   <div class="razo-blog-masonary-single-item">
@@ -740,16 +500,16 @@
               <!-- Single Blog Item -->
               <div class="col-12 col-sm-6 col-lg-6 razo-blog-masonary-item mb-30">
                   <div class="razo-blog-masonary-single-item">
-                      <!-- Post Thumbnail -->
                       <div class="post-thumbnail">
-                          <a href="./socceradd.html"><span class="divlink"></span></span>SoMoE-SoScore</a>
+                          <a href="./soccermod.html"><span class="divlink"></span></span>SoMoE-19</a>
                       </div>
-                      <!-- Post Content -->
                       <div class="post-content">
                         <div class="post-bg">
-                          <div class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> Last Update: August 05, 2020 - v1.2.0</div>
-                          <p class="post-title"><b class="highlight">So</b>ccer<b class="highlight">Mo</b>d<b class="highlight"> E</b>dit<b class="highlight">-19-SoScore Addition</b></p>
-                          <p>is a Sourcemod plugin for CS:S. <br />A collection of 'modules' from the main soccermod plugin put into a separate plugin to be used on public servers running <b class="highlight">SoScore</b> by Forlix.<br />
+                          <div class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> Last Update: July 21, 2020 - v1.2.5</div>
+                          <p class="post-title"><b class="highlight">So</b>ccer<b class="highlight">Mo</b>d<b class="highlight"> E</b>dit<b class="highlight">-19</b></p>
+                          <p>is a Sourcemod plugin for CS:S. <br />It features everything needed to play competitive Soccer matches, as well as a few optional but useful additions.<br />
+                          </br>
+                        </br>
                           </p>
                         </div>
                       </div>
@@ -886,7 +646,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <!-- Footer Area End -->
 
     <!-- All JS Files -->
-
     <!-- jQuery -->
     <script src="../../js/jquery.min.js"></script>
     <!-- Popper -->
