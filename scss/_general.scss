@@ -5,7 +5,35 @@
   background-size: contain;
 }
 
-/* HIGHLIGHT */
+
+.borderdivide{
+  border-bottom: 2px solid $primary;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+/* SCROLLBAR */
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #212529;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $primary;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: $hover;
+}
+
+/* HIGHLIGHTING */
 
 .highlight{
   color : $white;
@@ -88,11 +116,7 @@
   -webkit-text-stroke: 0.2px red;
 }
 
-.borderdivide{
-  border-bottom: 2px solid $primary;
-  margin-top: 10px;
-  margin-bottom: 20px;
-}
+/* LISTS */
 
 .spanlist{
   display: list-item;
